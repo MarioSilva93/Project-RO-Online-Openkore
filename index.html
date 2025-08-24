@@ -1,1 +1,71 @@
+<!doctype html>
+<html lang="pt">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Project RO Online OpenKore — Em desenvolvimento</title>
+  <meta name="description" content="Painel do bot OpenKore — em desenvolvimento.">
+  <style>
+    :root{
+      --bg:#0b0f14; --card:#121923; --fg:#e7edf4; --muted:#9fb0c0; --accent:#6ee7b7; --border:#1f2a36;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0; font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Arial,sans-serif;
+      color:var(--fg); background:
+      radial-gradient(1200px 800px at 10% 10%, #0f172a 0%, transparent 60%),
+      radial-gradient(800px 600px at 90% 10%, #1e293b 0%, transparent 60%),
+      var(--bg);
+      display:flex; align-items:center; justify-content:center; padding:24px;
+    }
+    .card{
+      width:100%; max-width:720px; background:var(--card); border:1px solid var(--border);
+      border-radius:16px; padding:28px; box-shadow:0 20px 60px rgba(0,0,0,.35);
+    }
+    h1{margin:0 0 8px; font-size:28px; letter-spacing:.2px}
+    p{margin:8px 0 0; color:var(--muted); line-height:1.55}
+    .row{display:flex; flex-wrap:wrap; gap:10px; align-items:center; margin-top:16px}
+    .badge{display:inline-flex; align-items:center; gap:8px; padding:8px 12px;
+      border:1px solid var(--border); border-radius:999px; background:#0b0f14; color:var(--fg); font-size:14px}
+    .dot{width:10px; height:10px; border-radius:50%; background:var(--accent); box-shadow:0 0 14px var(--accent)}
+    .links{margin-top:18px; display:flex; gap:12px; flex-wrap:wrap}
+    a.button{
+      text-decoration:none; color:var(--fg); border:1px solid var(--border); background:#0b0f14;
+      padding:10px 14px; border-radius:10px; transition:.2s transform ease;
+    }
+    a.button:hover{transform:translateY(-1px)}
+    .foot{margin-top:18px; font-size:13px; color:var(--muted)}
+    code{background:#0b0f14; padding:2px 6px; border-radius:6px; border:1px solid var(--border)}
+  </style>
+</head>
+<body>
+  <main class="card" role="main" aria-live="polite">
+    <div class="row">
+      <span class="badge"><span class="dot" aria-hidden="true"></span> Bot em desenvolvimento</span>
+    </div>
+
+    <h1>Project RO Online OpenKore</h1>
+    <p>
+      Obrigado por visitares! 👋<br>
+      Este projeto está a ser construído. Em breve aqui vai existir um painel para acompanhar o bot
+      (status, HP/SP, mapas, loot, etc.) — tudo integrado com OpenKore.
+    </p>
+
+    <div class="links">
+      <a class="button" href="https://github.com/MarioSilva93/Project-RO-Online-Openkore" target="_blank" rel="noopener">
+        Ver repositório no GitHub
+      </a>
+      <a class="button" href="#" onclick="navigator.clipboard.writeText(location.href); this.textContent='Link copiado!'; return false;">
+        Copiar link do site
+      </a>
+    </div>
+
+    <p class="foot">
+      Podes voltar mais tarde ou acompanhar o progresso no repositório.
+      Se vires esta página, significa que o GitHub Pages está ativo neste projeto (<code>main / root</code>).
+    </p>
+  </main>
+</body>
+</html>
 
