@@ -10,14 +10,13 @@ Este repositório contém a base de configurações, plugins e ferramentas para 
 
 ## 📂 Estrutura do Projeto
 
-Project-RO-Online-Openkore/
-├─ plugins/ # Plugins customizados do OpenKore
-├─ control/ # Configurações (.txt, macros, etc.)
-├─ web/ # Painel de controlo em PHP
-├─ sql/ # Scripts SQL para base de dados
-├─ .gitignore
-├─ README.md
-└─ docker-compose.yml # (opcional, se usares Docker)
+- `plugins/` → Plugins customizados do OpenKore  
+- `control/` → Configurações (.txt, macros, etc.)  
+- `web/` → Painel de controlo em PHP  
+- `sql/` → Scripts SQL para base de dados  
+- `.gitignore`  
+- `README.md`  
+- `docker-compose.yml` → (opcional, se usares Docker)
 
 ## 🚀 Como usar
 
