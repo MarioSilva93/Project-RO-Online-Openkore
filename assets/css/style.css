@@ -1,0 +1,16 @@
+body {
+  margin:0; font-family: system-ui, sans-serif;
+  background:#0b0f14; color:#e7edf4;
+}
+.card {
+  max-width:700px; margin:40px auto; padding:20px;
+  background:#121923; border:1px solid #1f2a36; border-radius:10px;
+  box-shadow:0 6px 20px rgba(0,0,0,0.4);
+}
+a { color:#6ee7b7; text-decoration:none; }
+a:hover { text-decoration:underline; }
+.center { text-align:center; }
+pre {
+  background:#0b0f14; border:1px solid #1f2a36; border-radius:6px;
+  padding:12px; overflow:auto;
+}
